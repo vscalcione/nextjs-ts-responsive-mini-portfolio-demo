@@ -1,9 +1,9 @@
 import React from "react";
-import { FiltersTabComponent } from "./FiltersTab/FiltersTabComponent";
-import { ProjectsTabComponent } from "./ProjectsTab/ProjectsTabComponent";
-import { SkillsTabComponent } from "./SkillsTab/SkillsTabComponent";
+import FiltersTabComponent from "./FiltersTab/FiltersTabComponent";
+import ProjectsTabComponent from "./ProjectsTab/ProjectsTabComponent";
+import SkillsTabComponent from "./SkillsTab/SkillsTabComponent";
 
-export const MainComponent = () => {
+const MainComponent = () => {
   return (
     <>
       <main className="main">
@@ -16,3 +16,5 @@ export const MainComponent = () => {
     </>
   );
 };
+
+export default MainComponent;

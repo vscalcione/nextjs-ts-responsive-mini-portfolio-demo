@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ProfileButtonsComponent = () => {
+const ProfileButtonsComponent = () => {
   return (
     <>
       <a href="#" className="button">
@@ -20,3 +20,5 @@ export const ProfileButtonsComponent = () => {
     </>
   );
 };
+
+export default ProfileButtonsComponent;

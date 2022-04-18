@@ -1,7 +1,7 @@
 import React from "react";
 import "remixicon/fonts/remixicon.css";
 
-export const SkillsTabComponent = () => {
+const SkillsTabComponent = () => {
   return (
     <>
       <div className="skills__content grid" data-content id="skills">
@@ -127,3 +127,5 @@ export const SkillsTabComponent = () => {
     </>
   );
 };
+
+export default SkillsTabComponent;

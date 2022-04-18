@@ -1,6 +1,6 @@
 import React from "react";
 
-export const FiltersTabComponent = () => {
+const FiltersTabComponent = () => {
   return (
     <>
       <ul className="filters__content">
@@ -17,3 +17,5 @@ export const FiltersTabComponent = () => {
     </>
   );
 };
+
+export default FiltersTabComponent;

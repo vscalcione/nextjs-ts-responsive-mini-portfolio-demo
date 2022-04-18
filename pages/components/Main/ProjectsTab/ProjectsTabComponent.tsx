@@ -7,7 +7,7 @@ import ProjectPicture3 from "../../../../assets/project3.jpg";
 import ProjectPicture4 from "../../../../assets/project4.jpg";
 import ProjectPicture5 from "../../../../assets/project5.jpg";
 
-export const ProjectsTabComponent = () => {
+const ProjectsTabComponent = () => {
   return (
     <>
       <div className="filters__sections">
@@ -105,3 +105,5 @@ export const ProjectsTabComponent = () => {
     </>
   );
 };
+
+export default ProjectsTabComponent;

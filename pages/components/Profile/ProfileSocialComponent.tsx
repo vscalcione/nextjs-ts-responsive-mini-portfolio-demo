@@ -1,7 +1,7 @@
 import React from "react";
 import "remixicon/fonts/remixicon.css";
 
-export const ProfileSocialComponent = () => {
+const ProfileSocialComponent = () => {
   return (
     <>
       <ul className="profile__social">
@@ -33,3 +33,5 @@ export const ProfileSocialComponent = () => {
     </>
   );
 };
+
+export default ProfileSocialComponent;

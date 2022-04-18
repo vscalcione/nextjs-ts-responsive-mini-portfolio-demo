@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ProfileInfoComponent = () => {
+const ProfileInfoComponent = () => {
   return (
     <>
       <div className="profile__info grid">
@@ -27,3 +27,5 @@ export const ProfileInfoComponent = () => {
     </>
   );
 };
+
+export default ProfileInfoComponent;

@@ -2,12 +2,12 @@ import React from "react";
 import Image from "next/image";
 
 import ProfilePicture from "../../../assets/profile.png";
-import Profile1 from "../../../assets/profile1.png";
-import { ProfileSocialComponent } from "../Profile/ProfileSocialComponent";
-import { ProfileInfoComponent } from "../Profile/ProfileInfoComponent";
-import { ProfileButtonsComponent } from "../Profile/ProfileButtonsComponent";
 
-export const HeaderComponent = () => {
+import ProfileSocialComponent from "../Profile/ProfileSocialComponent";
+import ProfileInfoComponent from "../Profile/ProfileInfoComponent";
+import ProfileButtonsComponent from "../Profile/ProfileButtonsComponent";
+
+const HeaderComponent = () => {
   return (
     <>
       <header className="profile container">
@@ -16,7 +16,7 @@ export const HeaderComponent = () => {
           <div className="profile__data">
             <div className="profile__border">
               <div className="profile__perfil">
-                <Image src={Profile1} alt="Profile Picture" />
+                <Image src={ProfilePicture} alt="Profile Picture" />
               </div>
             </div>
 
@@ -35,3 +35,5 @@ export const HeaderComponent = () => {
     </>
   );
 };
+
+export default HeaderComponent;
